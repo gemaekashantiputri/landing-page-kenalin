@@ -1,0 +1,225 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.nav-container {
+  background: #EEF7F4;
+  box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.03);
+  height: 72px;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+ display: flex; 
+ margin-top: 13px;
+ margin-right: -100px;
+}
+
+nav .logo {
+  font-family: Coolvetica;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 43px;
+margin-top: 13px;
+margin-left: -100px;
+
+color: #4A7060;
+
+}
+.nav-items li {
+list-style-type: none;
+margin-right: 35px;
+}
+
+.nav-items li:nth-last-of-type(1) {
+  margin: 0;
+}
+.nav-items li a {
+  font-family: Helvetica Neue LT Std;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+
+color: #4A7060;
+text-decoration: none;
+}
+
+.header-container {
+  background: #f7faf9;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  height: calc(100vh- 72px);
+  align-items: center;
+  display: flex;
+}
+header .kampus {
+  font-family: Helvetica Neue LT Std;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 60px;
+  margin-top: -90px;
+  
+  color: #4A7060;
+  
+}
+
+header h1 {
+  font-family: Helvetica Neue LT Std;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 60px;
+  margin-bottom: 24px;
+  margin-left: -100px;
+  margin-top: 100px;
+  
+  color: #4A7060;
+  
+}
+header p{
+  font-family: Helvetica Neue LT Std;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  margin-bottom: 48px;
+  margin-left: -100px;
+  color: #000000;
+}
+header a{
+  position: absolute;
+width: 270px;
+height: 60px;
+left: 69px;
+top: 503px;
+color: #ffffff;
+margin-top: -50px;
+font-size: 18px;
+
+background: #4A7060;
+border-radius: 30px;
+padding: 20px 48px;
+transition: 300ms;
+display: inline-block;
+}
+header a:hover {
+  transform: translateY(-8x);
+}
+header .hero-image {
+  margin-left:697px;
+  margin-top: -280px;
+}
+header .circle {
+  margin-left: 700px;
+  margin-top: -549px;
+  
+}
+header .bullet1 {
+  margin-top: -67px;
+  margin-left: 40px;
+}
+header .yogya p{
+  position: absolute;
+width: 77px;
+height: 34px;
+left: 350px;
+top: 327px;
+
+font-family: Helvetica Neue LT Std;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+
+color: #000000;
+
+}
+header .bullet2 {
+  margin-top: -20px;
+  margin-left: 220px;
+}
+header .malang p {
+  position: absolute;
+width: 106px;
+height: 34px;
+left: 528px;
+top: 327px;
+
+font-family: Helvetica Neue LT Std;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+
+color: #000000;
+
+}
+header .bullet3 {
+  margin-top: -18px;
+  margin-left: 360px;
+}
+header .jakarta p{
+  position: absolute;
+width: 76px;
+height: 33px;
+left: 670px;
+top: 327px;
+
+font-family: Helvetica Neue LT Std;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+
+color: #000000;
+
+}
+header .semarang p {
+  position: absolute;
+width: 135px;
+height: 33px;
+left: 820px;
+top: 326px;
+
+font-family: Helvetica Neue LT Std;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+header .bullet4 {
+  margin-top: -18px;
+  margin-left: 510px;
+}
+header .kota p{
+  position: absolute;
+width: 227px;
+height: 33px;
+left: 170px;
+top: 360px;
+
+font-family: Helvetica Neue LT Std;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+}
